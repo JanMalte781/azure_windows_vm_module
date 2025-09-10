@@ -1,0 +1,16 @@
+# Terraform lokale Dateien
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Terraform Lockfile (optional, wenn du es versionieren willst, dann entfernen)
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+
+# Editor/IDE Dateien
+.vscode/
+.idea/
+*.swp
